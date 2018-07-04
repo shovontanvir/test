@@ -1,0 +1,110 @@
+{
+	"name": "ZiON",
+	"version": "0.5.0",
+	"description": "Web template crafting machine",
+	"main": "gulpfile.js",
+	"dependencies": {
+		"bootstrap": "^4.0.0-beta.2",
+		"flexslider": "^2.6.4",
+		"font-awesome": "^4.7.0",
+		"hamburgers": "github:jonsuh/hamburgers",
+		"imagesloaded": "^4.1.3",
+		"isotope-layout": "^3.0.4",
+		"jquery": "^3.2.1",
+		"jquery-menu-aim": "^1.1.0",
+		"jquery.mb.ytplayer": "^3.0.20",
+		"lightbox2": "^2.9.0",
+		"owl.carousel": "github:OwlCarousel2/OwlCarousel2",
+		"popper.js": "^1.12.6",
+		"remodal": "^1.1.1",
+		"semantic-ui-accordion": "^2.2.12",
+		"semantic-ui-dropdown": "^2.2.12",
+		"semantic-ui-transition": "^2.2.12",
+		"typed.js": "^2.0.6"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.18.13",
+		"cheerio": "^1.0.0-rc.2",
+		"del": "^3.0.0",
+		"gulp": "github:gulpjs/gulp",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-clean-css": "^3.9.0",
+		"gulp-connect-php": "^1.0.1",
+		"gulp-gm": "0.0.8",
+		"gulp-imagemin": "^3.4.0",
+		"gulp-npm-mainfiles": "^1.0.3",
+		"gulp-plumber": "^1.1.0",
+		"gulp-preprocess": "^2.0.0",
+		"gulp-prettify": "^0.5.0",
+		"gulp-pug": "^3.3.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-rtlcss": "^1.0.0",
+		"gulp-sass": "^3.1.0",
+		"gulp-sourcemaps": "^2.6.1",
+		"gulp-uglify": "^3.0.0",
+		"gulp-util": "^3.0.8",
+		"gulp-watch": "^4.3.8",
+		"gulp-webshot": "^0.2.3",
+		"install": "^0.10.1",
+		"node-bourbon": "^4.2.8",
+		"pug": "^2.0.0-rc.4",
+		"require-dir": "^0.3.0",
+		"run-sequence": "^2.2.0",
+		"vinyl-paths": "^2.1.0"
+	},
+	"mainfiles": {
+		"jquery": [
+			"/dist/jquery.min.js"
+		],
+		"bootstrap": [
+			"/dist/css/bootstrap.min.css",
+			"/dist/js/bootstrap.min.js"
+		],
+		"popper.js": [
+			"/dist/popper.min.js"
+		],
+		"font-awesome": [
+			"/css/font-awesome.min.css",
+			"/fonts/*.*"
+		],
+		"owl.carousel": [
+			"/dist/owl.carousel.min.js",
+			"/dist/assets/**/*.*"
+		],
+		"semantic-ui-accordion": [
+			"/accordion.min.css",
+			"/accordion.min.js"
+		],
+		"semantic-ui-dropdown": [
+			"/dropdown.min.css",
+			"/dropdown.min.js"
+		],
+		"semantic-ui-transition": [
+			"/transition.min.css",
+			"/transition.min.js"
+		],
+		"typed.js": [
+			"/lib/typed.min.js"
+		],
+		"jquery-menu-aim": [
+			"/jquery.menu-aim.js"
+		],
+		"lightbox2": [
+			"/dist/**/*.*"
+		],
+		"isotope-layout": [
+			"/dist/isotope.pkgd.min.js"
+		],
+		"hamburgers": [
+			"/dist/hamburgers.min.css"
+		],
+		"remodal": [
+			"/dist/*.*"
+		]
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ashraful Prium <prium47@gmail.com>",
+	"license": "ISC"
+}

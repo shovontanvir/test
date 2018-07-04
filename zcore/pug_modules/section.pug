@@ -1,0 +1,17 @@
+//- A parent wireframe for every section
+
+//- @since version 0.4.0
+//- 
+
+mixin section(background, containerClass, attrs)
+	section&attributes(attributes)= attrs
+		//- Background
+		+background(background)
+
+		//- Container for content
+		div(class=containerClass)
+
+			block
+
+			///.row
+		///.container

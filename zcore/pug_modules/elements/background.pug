@@ -1,0 +1,16 @@
+mixin background(background, attrs)
+	if(background) 
+
+		.background-holder(class=background.cssclass, style={'background-image': 'url('+background.image+')'} )&attributes(background.attrs)= attrs
+			
+			if(background.video)
+				video(autoplay loop muted)
+					source(src=background.video+".mp4" type="video/mp4")
+					source(src=background.video+".webm" type="video/webm")
+					//- source(src=background.video+".ogv" type="video/ogv")
+
+			if(background.youtube)
+				.youtube-background(data-property!=background.youtube)
+			
+			block
+		///.background-holder
